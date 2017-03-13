@@ -40,7 +40,7 @@ class Station
   end
 
   def each_train
-    trains.each { |train| yield(train) } unless trains.empty?
+    trains.each { |train| yield(train) }
   end
 
   protected

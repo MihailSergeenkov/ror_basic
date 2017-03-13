@@ -68,7 +68,7 @@ class Train
   end
 
   def each_carriage
-    carriages.each { |carriage| yield(carriage) } unless carriages.empty?
+    carriages.each { |carriage| yield(carriage) }
   end
 
   def number_of_carriages
